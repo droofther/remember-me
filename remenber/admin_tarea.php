@@ -27,12 +27,12 @@ if(!(isset($_SESSION['usuario']))){
 
         <div class="contenedor">
             <a href="php/cerrar_sesion.php" class="cerrar-sesion">Cerrar Sesion</a>
-            <h1>Remember me</h1>
+            <h1>Remember</h1>
 
 
             <div class="add-tarea">
                 <form action="./php/add_tarea_db.php" method="POST">
-                    <h2>Agregar lista de tareas</h2>
+                    <h2>Agregar lista</h2>
                     <div class="formulario">
                         <input type="text" name="titulo" id="title" class="title" placeholder="Titulo">
                         <input type="text" name="tarea" id="description" placeholder="Tarea por Realizar"></input>
