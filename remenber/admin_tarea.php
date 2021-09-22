@@ -20,7 +20,7 @@ if(!(isset($_SESSION['usuario']))){
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./css/stilos_tarea.css">
-        <title>Remenber me</title>
+        <title>Remenber</title>
     </head>
 
     <body>
